@@ -8,7 +8,8 @@
 
 import UIKit
 
-class SpiralLoaderView: UIView {
+open class SpiralLoaderView: UIView {
+    
     class func instanceFromNib() -> UIView {
         return UINib(nibName: "SpiralLoaderView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! UIView
     }
@@ -29,15 +30,15 @@ class SpiralLoaderView: UIView {
 //            }
 //    }
     
-    class func addLoaderToView(_ parentView : UIView) {
+   open class func addLoaderToView(_ parentView : UIView) {
             let view = SpiralLoaderView.instanceFromNib()
-            view.frame = parentView.frame
+            view.frame = parentView.bounds
             view.tag = 5000
             parentView.addSubview(view)
             parentView.bringSubview(toFront: view)
     }
     
-    class func removeLoaderFromView (_ parentView: UIView) {
+   open class func removeLoaderFromView (_ parentView: UIView) {
         if let view = parentView.viewWithTag(5000) {
             view.removeFromSuperview()
         }
