@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SpiralLoader_Example' do
+  pod 'SpiralLoader', :path => '../'
+
+  target 'SpiralLoader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
