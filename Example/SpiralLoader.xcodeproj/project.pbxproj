@@ -42,10 +42,10 @@
 		6289D73D98DA77F24249B13E /* Pods-SpiralLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiralLoader_Example.release.xcconfig"; path = "Target Support Files/Pods-SpiralLoader_Example/Pods-SpiralLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		81363649F096D2CE4A97BC91 /* Pods-SpiralLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiralLoader_Example.debug.xcconfig"; path = "Target Support Files/Pods-SpiralLoader_Example/Pods-SpiralLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A6167B909CF653657BF39A19 /* Pods-SpiralLoader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiralLoader_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SpiralLoader_Tests/Pods-SpiralLoader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A84E090133C5BEFC10002A78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A84E090133C5BEFC10002A78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C460B653D21D7718F247FD00 /* Pods_SpiralLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiralLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE2717C72D13B9020F3FFFB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E42E8A8CFD8F7DD2050E07C3 /* SpiralLoader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SpiralLoader.podspec; path = ../SpiralLoader.podspec; sourceTree = "<group>"; };
+		DE2717C72D13B9020F3FFFB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E42E8A8CFD8F7DD2050E07C3 /* SpiralLoader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpiralLoader.podspec; path = ../SpiralLoader.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E76F29224AE4EC58981F56F7 /* Pods-SpiralLoader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiralLoader_Tests.release.xcconfig"; path = "Target Support Files/Pods-SpiralLoader_Tests/Pods-SpiralLoader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				A6167B909CF653657BF39A19 /* Pods-SpiralLoader_Tests.debug.xcconfig */,
 				E76F29224AE4EC58981F56F7 /* Pods-SpiralLoader_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

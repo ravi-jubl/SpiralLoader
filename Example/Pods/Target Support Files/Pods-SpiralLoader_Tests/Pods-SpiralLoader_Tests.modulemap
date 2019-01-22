@@ -1,0 +1,6 @@
+framework module Pods_SpiralLoader_Tests {
+  umbrella header "Pods-SpiralLoader_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
