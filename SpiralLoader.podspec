@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = "SpiralLoader/Classes/**/*.{swift}"
   s.resources = "SpiralLoader/Classes/**/*.{xib}"
-  # s.resource_bundles = {
-  #   'SpiralLoader' => ['SpiralLoader/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     "SpiralLoader" => ["SpiralLoader/Classes/**/*.{xib}"]
+  }
   s.requires_arc = true
   s.swift_version = "4.0"
   # s.public_header_files = 'Pod/Classes/**/*.h'

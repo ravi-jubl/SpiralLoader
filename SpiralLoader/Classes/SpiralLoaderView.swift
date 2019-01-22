@@ -10,8 +10,26 @@ import UIKit
 
 open class SpiralLoaderView: UIView {
     
-    class func instanceFromNib() -> UIView {
-        return UINib(nibName: "SpiralLoaderView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! UIView
+    class func instanceFromNib() -> UIView? {
+        
+        let podBundle = Bundle(for: self.classForCoder())
+        if let bundleURL = podBundle.url(forResource: "SpiralLoader", withExtension: "bundle") {
+            
+            if let bundle = Bundle(url: bundleURL) {
+                
+                return UINib(nibName: "SpiralLoaderView", bundle: bundle).instantiate(withOwner: nil, options: nil)[0] as? UIView
+                
+            }else {
+                
+               return nil
+                
+            }
+            
+        }else {
+            
+            return nil
+            
+        }
     }
     
 //    class func addLoaderToWindow() {
@@ -30,12 +48,13 @@ open class SpiralLoaderView: UIView {
 //            }
 //    }
     
-   open class func addLoaderToView(_ parentView : UIView) {
-            let view = SpiralLoaderView.instanceFromNib()
+    open class func addLoaderToView(_ parentView : UIView) {
+        if let view = SpiralLoaderView.instanceFromNib() {
             view.frame = parentView.bounds
             view.tag = 5000
             parentView.addSubview(view)
             parentView.bringSubview(toFront: view)
+        }
     }
     
    open class func removeLoaderFromView (_ parentView: UIView) {

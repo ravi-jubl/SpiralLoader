@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import SpiralLoader
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        SpiralLoaderView.addLoaderToView(self.view)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
