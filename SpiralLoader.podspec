@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SpiralLoader"
-  s.version          = "0.4.0"
+  s.version          = "0.5.0"
   s.summary          = "Beautiful loader for all async task in your application"
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
 
   s.source_files = "SpiralLoader/Classes/**/*.{swift}"
-  #s.resources = "SpiralLoader/Classes/**/*.{xib}"
+  s.resources = "SpiralLoader/Classes/**/*.{xib}"
   s.resource_bundles = {
-     "SpiralLoader" => ["SpiralLoader/Classes/SpiralLoader.bundle/**/*.{xib}"]
+     "SpiralLoader" => ["Pod/**/*.xib"]
   }
   s.requires_arc = true
   s.swift_version = "4.0"
