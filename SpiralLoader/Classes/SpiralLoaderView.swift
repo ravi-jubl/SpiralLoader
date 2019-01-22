@@ -13,7 +13,7 @@ open class SpiralLoaderView: UIView {
     class func instanceFromNib() -> UIView? {
         
         let podBundle = Bundle(for: self.classForCoder())
-        if let bundleURL = podBundle.url(forResource: "SpiralLoader", withExtension: "bundle") {
+        if let bundleURL = podBundle.url(forResource: "{SpiralLoader}", withExtension: "bundle") {
             
             if let bundle = Bundle(url: bundleURL) {
                 
