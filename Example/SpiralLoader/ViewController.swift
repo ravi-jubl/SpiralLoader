@@ -13,8 +13,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        SpiralLoaderView.addLoaderToView(self.view)
+        
+        let loader = SpiralLoaderView(color: UIColor.black, alpha: 0.2, rect: CGRect(x: 0, y: 100, width: self.view.bounds.width, height: self.view.bounds.height), colorArr: [UIColor.red,UIColor.yellow], circleCount: 10, circleWidth: 4.0, speedFactor: 0.8)
+        loader.addLoaderToView(self.view)
+        
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(remove))
+        self.view.addGestureRecognizer(gesture)
+//        let loaderView = SpiralAnimationView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+//        loaderView.backgroundColor = UIColor.clear//UIColor.lightGray.withAlphaComponent(0.5)
+//        self.view.addSubview(loaderView)
+        //SpiralLoaderView.addLoaderToView(self.view)
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    @objc func remove()  {
+        SpiralLoaderView.removeLoaderFromView(self.view)
     }
 
     override func didReceiveMemoryWarning() {

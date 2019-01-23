@@ -8,56 +8,27 @@
 
 import UIKit
 
-open class SpiralLoaderView: UIView {
+public class SpiralLoaderView {
     
-    class func instanceFromNib() -> UIView? {
-        
-        let podBundle = Bundle(for: self.classForCoder())
-        if let bundleURL = podBundle.url(forResource: "{SpiralLoader}", withExtension: "bundle") {
-            
-            if let bundle = Bundle(url: bundleURL) {
-                
-                return UINib(nibName: "SpiralLoaderView", bundle: bundle).instantiate(withOwner: nil, options: nil)[0] as? UIView
-                
-            }else {
-                
-               return nil
-                
-            }
-            
-        }else {
-            
-            return nil
-            
-        }
+    var loaderView : SpiralAnimationView!
+    
+    public init(color: UIColor = UIColor.black, alpha : CGFloat = 0.5,rect : CGRect,colorArr : [UIColor]? ,circleCount : Int?, circleWidth : CGFloat? ,speedFactor : Double?) {
+        self.loaderView = SpiralAnimationView(frame: CGRect(x: 0, y: 0, width: rect.width, height: rect.height))
+        self.loaderView.colorArr = colorArr ?? [UIColor.red,UIColor.yellow]
+        self.loaderView.circleCount = circleCount ?? 6
+        self.loaderView.lineWidth = circleWidth ?? 4
+        self.loaderView.speedFactor = speedFactor ?? 0.9
+        self.loaderView.backgroundColor = color.withAlphaComponent(alpha)
+        self.loaderView.tag = 5000
+        self.loaderView.setup()
     }
     
-//    class func addLoaderToWindow() {
-//            if let window = (UIApplication.shared.delegate as? AppDelegate)?.window {
-//                let view = SpiralLoaderView.instanceFromNib()
-//                view.frame = window.frame.bounds
-//                view.tag = 5000
-//                window.addSubview(view)
-//                window.bringSubview(toFront: view)
-//            }
-//    }
-    
-//    class func removeLoaderFromWindow () {
-//            if let window = (UIApplication.shared.delegate as? AppDelegate)?.window,let view = window.viewWithTag(5000) {
-//                view.removeFromSuperview()
-//            }
-//    }
-    
-    open class func addLoaderToView(_ parentView : UIView) {
-        if let view = SpiralLoaderView.instanceFromNib() {
-            view.frame = parentView.bounds
-            view.tag = 5000
-            parentView.addSubview(view)
-            parentView.bringSubview(toFront: view)
-        }
+ 
+    public func addLoaderToView(_ parentView : UIView) {
+        parentView.addSubview(self.loaderView)
     }
     
-   open class func removeLoaderFromView (_ parentView: UIView) {
+   public class func removeLoaderFromView (_ parentView: UIView) {
         if let view = parentView.viewWithTag(5000) {
             view.removeFromSuperview()
         }

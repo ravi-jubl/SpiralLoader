@@ -1,5 +1,5 @@
 PODS:
-  - SpiralLoader (0.1.0)
+  - SpiralLoader (0.5.0)
 
 DEPENDENCIES:
   - SpiralLoader (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SpiralLoader: e8a20ba81763f29fd2037811b302870e9025ba5f
+  SpiralLoader: 7f4b7fc6ea61ef3674ca74f4892cf8fddf7223f4
 
 PODFILE CHECKSUM: 88c8b5e8d46128d340aeb29fd286d2a1358630e1
 

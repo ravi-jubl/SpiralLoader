@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58679443701A8C21F9CF567EEBC8D040 /* SpiralLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D9EBD086C2EA091ED6E2A70CD96B2 /* SpiralLoader-dummy.m */; };
-		58DC7B7321F72EF000D719EC /* SpiralAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC7B7021F72EF000D719EC /* SpiralAnimationView.swift */; };
-		58DC7B7421F72EF000D719EC /* SpiralLoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58DC7B7121F72EF000D719EC /* SpiralLoaderView.xib */; };
-		58DC7B7521F72EF000D719EC /* SpiralLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC7B7221F72EF000D719EC /* SpiralLoaderView.swift */; };
+		33A50CEAEF6E64BBCDA938BC6C4D8B18 /* SpiralLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953D6152C5AA2442EB0931F98B390FC7 /* SpiralLoaderView.swift */; };
+		47E936D1302D5ABC29C3E482FEBF5F48 /* SpiralLoader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8245D514525F0B46AC53B6F82E905677 /* SpiralLoader.bundle */; };
 		7FA37D796AD82DE705E439D32219A2DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		973DA00FE60AE7225B5114DCD3BC17A3 /* Pods-SpiralLoader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A3D01C5526717374FA68EF3902853D /* Pods-SpiralLoader_Example-dummy.m */; };
 		9B7ED132C1EAE84DAFA3BD64FBA3428E /* Pods-SpiralLoader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC7ECBEB25BF24E1C6C53A6FCBCBEFE /* Pods-SpiralLoader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0874715CB7C2AE9DFEA5CE508FF1B6C /* SpiralLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A6874866B85C882152D48385F624E7 /* SpiralLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0874715CB7C2AE9DFEA5CE508FF1B6C /* SpiralLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 158F6480187F28831ED6C1577497C1CB /* SpiralLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A30121201C9B9DD8FF39F0012B34DE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		BEA04E4992C54276DAAB0B7C9A79C94C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760CE07755A0B6D693D338746BFE6F3 /* ReplaceMe.swift */; };
+		B04FDA6296030518C5EB984C72F038C4 /* SpiralLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1337FE0EB1D94339424BAB440AB903D9 /* SpiralLoader-dummy.m */; };
 		BF974A91CE4E2D3A9A9C61C402F68804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		EBC12EA451D0F502B990A8F9C0F37E17 /* Pods-SpiralLoader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A86F1DF045332A16F8568BD2BC9D39 /* Pods-SpiralLoader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5B329EF35F07B6D39546FECADA894E8 /* Pods-SpiralLoader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C6AC5AAEBF3F859597463A2BFF12B3 /* Pods-SpiralLoader_Tests-dummy.m */; };
+		F9631642138D24519666FB16FA124C50 /* SpiralAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E4B1412D531FF50FE649C72ED03519 /* SpiralAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1540CEDF3E5859DF471A75E3BD94A29F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9264408216ADE6437345E8D92F58199A;
+			remoteInfo = "SpiralLoader-SpiralLoader";
+		};
 		22D0948D38BA20CE05636A535CA2B84E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -40,44 +46,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D00B29ABCE451A457DAE5C66682A3B /* Pods_SpiralLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiralLoader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C6AC5AAEBF3F859597463A2BFF12B3 /* Pods-SpiralLoader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpiralLoader_Tests-dummy.m"; sourceTree = "<group>"; };
-		05A6874866B85C882152D48385F624E7 /* SpiralLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpiralLoader-umbrella.h"; sourceTree = "<group>"; };
+		0B7BFDFA7C4369F6817B6B1B510E362B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1337FE0EB1D94339424BAB440AB903D9 /* SpiralLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpiralLoader-dummy.m"; sourceTree = "<group>"; };
+		158F6480187F28831ED6C1577497C1CB /* SpiralLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpiralLoader-umbrella.h"; sourceTree = "<group>"; };
 		17E105D731EA5D3931B46AED2C4913CA /* Pods-SpiralLoader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpiralLoader_Example.modulemap"; sourceTree = "<group>"; };
 		26A3D01C5526717374FA68EF3902853D /* Pods-SpiralLoader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpiralLoader_Example-dummy.m"; sourceTree = "<group>"; };
-		27BE03E77D05B16C9B81DED96DBAF396 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		32A86F1DF045332A16F8568BD2BC9D39 /* Pods-SpiralLoader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpiralLoader_Tests-umbrella.h"; sourceTree = "<group>"; };
 		331D6C39B66F5A9D6F4F64BFB1B8F5FE /* Pods-SpiralLoader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpiralLoader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3A2D9EBD086C2EA091ED6E2A70CD96B2 /* SpiralLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpiralLoader-dummy.m"; sourceTree = "<group>"; };
-		3EBD3F8A4E97250AB8C2D3D652798C19 /* SpiralLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpiralLoader.xcconfig; sourceTree = "<group>"; };
-		48C112B64DC1BB230A47140BF9DC6B2A /* SpiralLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpiralLoader-prefix.pch"; sourceTree = "<group>"; };
-		57263DF13B6F8886779B6EFFC1DA96BE /* SpiralLoader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SpiralLoader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5760CE07755A0B6D693D338746BFE6F3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SpiralLoader/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		58DC7B7021F72EF000D719EC /* SpiralAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpiralAnimationView.swift; path = SpiralLoader/Classes/SpiralAnimationView.swift; sourceTree = "<group>"; };
-		58DC7B7121F72EF000D719EC /* SpiralLoaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpiralLoaderView.xib; path = SpiralLoader/Classes/SpiralLoaderView.xib; sourceTree = "<group>"; };
-		58DC7B7221F72EF000D719EC /* SpiralLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpiralLoaderView.swift; path = SpiralLoader/Classes/SpiralLoaderView.swift; sourceTree = "<group>"; };
+		513341BB2070003192F8D6352007AEAC /* SpiralLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpiralLoader.xcconfig; sourceTree = "<group>"; };
 		5B554180BFFB863DDAE042087D34BD36 /* Pods-SpiralLoader_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpiralLoader_Tests-Info.plist"; sourceTree = "<group>"; };
 		5B74384FB9114450282918697A59B434 /* Pods-SpiralLoader_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpiralLoader_Example-Info.plist"; sourceTree = "<group>"; };
+		74E4B1412D531FF50FE649C72ED03519 /* SpiralAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpiralAnimationView.swift; path = SpiralLoader/Classes/SpiralAnimationView.swift; sourceTree = "<group>"; };
+		8245D514525F0B46AC53B6F82E905677 /* SpiralLoader.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiralLoader.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC7ECBEB25BF24E1C6C53A6FCBCBEFE /* Pods-SpiralLoader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpiralLoader_Example-umbrella.h"; sourceTree = "<group>"; };
+		949F786C1196E57BDB8A814B67B626DA /* SpiralLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpiralLoader-prefix.pch"; sourceTree = "<group>"; };
+		953D6152C5AA2442EB0931F98B390FC7 /* SpiralLoaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpiralLoaderView.swift; path = SpiralLoader/Classes/SpiralLoaderView.swift; sourceTree = "<group>"; };
 		98FE626AB68B6AE88482DDD9F58FECC0 /* Pods-SpiralLoader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpiralLoader_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9906EEE69BB95FA877CBB0D77FC7F8EE /* Pods-SpiralLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpiralLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A10E7DB0B27996C036A90F2E19B2E0A3 /* SpiralLoader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SpiralLoader-Info.plist"; sourceTree = "<group>"; };
+		A2D95EDF684B333E6C393877732F2DEE /* SpiralLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpiralLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62E5CDF8F69280E021755AA94A6F3C9 /* Pods-SpiralLoader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpiralLoader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AD413E9C8029746F9D210D4F78D7CF88 /* SpiralLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpiralLoader.modulemap; sourceTree = "<group>"; };
-		B00B5CC68FB00D60B2B4A9F34D6E2C04 /* Pods_SpiralLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiralLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDCE208229932BA6DF908AA71894A8B /* SpiralLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpiralLoader.modulemap; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAA74B8EA7BC0B86FCB2E3CB61EDD434 /* SpiralLoader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SpiralLoader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE8A015355D768F671790CF760020CBD /* Pods-SpiralLoader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpiralLoader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0FA07799B9AF9D8C5FE4731C52DACC8 /* Pods-SpiralLoader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpiralLoader_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C75718EACB5E01CB2D91813B08E2EA84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CF4777B33BD4990946652293AE11058B /* SpiralLoader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SpiralLoader-Info.plist"; sourceTree = "<group>"; };
+		C45FC2CF8CA9EE579F09DA728F2A1035 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D37CE3FBCB057713046A855B4917CF37 /* ResourceBundle-SpiralLoader-SpiralLoader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SpiralLoader-SpiralLoader-Info.plist"; sourceTree = "<group>"; };
 		D3AB0A0A17D31BB24BF20EC2E3CA8856 /* Pods-SpiralLoader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpiralLoader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D6FE67DA4BAE64DA4EACA8D81E81DF82 /* Pods-SpiralLoader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpiralLoader_Tests.modulemap"; sourceTree = "<group>"; };
 		D725095F8148BB4C5CB209F5404D2036 /* Pods-SpiralLoader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpiralLoader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DE8F32BB2BD74FD1B8E9988AE33D978A /* SpiralLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpiralLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7E7D4F84E95E27F452CD6F684E9737 /* Pods_SpiralLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiralLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA09210F0D1A6AA1FA0A9B4D890755FF /* Pods-SpiralLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpiralLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FE991F2D148677967F4B13F58B5E2135 /* Pods_SpiralLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiralLoader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		32B202FFFC021EDFCA48008C491DD141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6D2E5E4CFC0AB98D6CBA969D49E504B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,36 +118,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CE3A16428FF7E1EB290B999D27DBBEA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B00B5CC68FB00D60B2B4A9F34D6E2C04 /* Pods_SpiralLoader_Example.framework */,
-				00D00B29ABCE451A457DAE5C66682A3B /* Pods_SpiralLoader_Tests.framework */,
-				DE8F32BB2BD74FD1B8E9988AE33D978A /* SpiralLoader.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		381E0122A761A12A5BEEBA0FA31EEAB1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AD413E9C8029746F9D210D4F78D7CF88 /* SpiralLoader.modulemap */,
-				3EBD3F8A4E97250AB8C2D3D652798C19 /* SpiralLoader.xcconfig */,
-				3A2D9EBD086C2EA091ED6E2A70CD96B2 /* SpiralLoader-dummy.m */,
-				CF4777B33BD4990946652293AE11058B /* SpiralLoader-Info.plist */,
-				48C112B64DC1BB230A47140BF9DC6B2A /* SpiralLoader-prefix.pch */,
-				05A6874866B85C882152D48385F624E7 /* SpiralLoader-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SpiralLoader";
-			sourceTree = "<group>";
-		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		59DE78BE7464F35569D1E18E59A8948C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA7E7D4F84E95E27F452CD6F684E9737 /* Pods_SpiralLoader_Example.framework */,
+				FE991F2D148677967F4B13F58B5E2135 /* Pods_SpiralLoader_Tests.framework */,
+				8245D514525F0B46AC53B6F82E905677 /* SpiralLoader.bundle */,
+				A2D95EDF684B333E6C393877732F2DEE /* SpiralLoader.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		715C8A32214BB32E85BB9A3203CB04B3 /* Targets Support Files */ = {
@@ -150,21 +150,26 @@
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				DD8E007FDADC1641DCDE6F1AF169D6B5 /* Development Pods */,
+				FC0CDC227D5FD88D910D9A1F2AAD1779 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				1CE3A16428FF7E1EB290B999D27DBBEA /* Products */,
+				59DE78BE7464F35569D1E18E59A8948C /* Products */,
 				715C8A32214BB32E85BB9A3203CB04B3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A225478550D527B2A7A1262E33A7369B /* Pod */ = {
+		9B92B8AA8694CD9CB1B15B6EF04F675B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				27BE03E77D05B16C9B81DED96DBAF396 /* LICENSE */,
-				C75718EACB5E01CB2D91813B08E2EA84 /* README.md */,
-				57263DF13B6F8886779B6EFFC1DA96BE /* SpiralLoader.podspec */,
+				D37CE3FBCB057713046A855B4917CF37 /* ResourceBundle-SpiralLoader-SpiralLoader-Info.plist */,
+				ADDCE208229932BA6DF908AA71894A8B /* SpiralLoader.modulemap */,
+				513341BB2070003192F8D6352007AEAC /* SpiralLoader.xcconfig */,
+				1337FE0EB1D94339424BAB440AB903D9 /* SpiralLoader-dummy.m */,
+				A10E7DB0B27996C036A90F2E19B2E0A3 /* SpiralLoader-Info.plist */,
+				949F786C1196E57BDB8A814B67B626DA /* SpiralLoader-prefix.pch */,
+				158F6480187F28831ED6C1577497C1CB /* SpiralLoader-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SpiralLoader";
 			sourceTree = "<group>";
 		};
 		B35F3F2C410E0314C4B238F62C45C16B /* Pods-SpiralLoader_Tests */ = {
@@ -181,6 +186,18 @@
 			);
 			name = "Pods-SpiralLoader_Tests";
 			path = "Target Support Files/Pods-SpiralLoader_Tests";
+			sourceTree = "<group>";
+		};
+		B4869B23C567E773548C73F8BF3D6551 /* SpiralLoader */ = {
+			isa = PBXGroup;
+			children = (
+				74E4B1412D531FF50FE649C72ED03519 /* SpiralAnimationView.swift */,
+				953D6152C5AA2442EB0931F98B390FC7 /* SpiralLoaderView.swift */,
+				F6802B68F397F7F171563839C346CA73 /* Pod */,
+				9B92B8AA8694CD9CB1B15B6EF04F675B /* Support Files */,
+			);
+			name = SpiralLoader;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -208,26 +225,22 @@
 			path = "Target Support Files/Pods-SpiralLoader_Example";
 			sourceTree = "<group>";
 		};
-		DD8E007FDADC1641DCDE6F1AF169D6B5 /* Development Pods */ = {
+		F6802B68F397F7F171563839C346CA73 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F952E1A77BDF8B83F82955BF489D731C /* SpiralLoader */,
+				C45FC2CF8CA9EE579F09DA728F2A1035 /* LICENSE */,
+				0B7BFDFA7C4369F6817B6B1B510E362B /* README.md */,
+				BAA74B8EA7BC0B86FCB2E3CB61EDD434 /* SpiralLoader.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		F952E1A77BDF8B83F82955BF489D731C /* SpiralLoader */ = {
+		FC0CDC227D5FD88D910D9A1F2AAD1779 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				58DC7B7021F72EF000D719EC /* SpiralAnimationView.swift */,
-				58DC7B7221F72EF000D719EC /* SpiralLoaderView.swift */,
-				58DC7B7121F72EF000D719EC /* SpiralLoaderView.xib */,
-				5760CE07755A0B6D693D338746BFE6F3 /* ReplaceMe.swift */,
-				A225478550D527B2A7A1262E33A7369B /* Pod */,
-				381E0122A761A12A5BEEBA0FA31EEAB1 /* Support Files */,
+				B4869B23C567E773548C73F8BF3D6551 /* SpiralLoader */,
 			);
-			name = SpiralLoader;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +289,7 @@
 			);
 			name = "Pods-SpiralLoader_Tests";
 			productName = "Pods-SpiralLoader_Tests";
-			productReference = 00D00B29ABCE451A457DAE5C66682A3B /* Pods_SpiralLoader_Tests.framework */;
+			productReference = FE991F2D148677967F4B13F58B5E2135 /* Pods_SpiralLoader_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		357109586470E18DECCE7AFD6D515EE2 /* Pods-SpiralLoader_Example */ = {
@@ -295,25 +308,43 @@
 			);
 			name = "Pods-SpiralLoader_Example";
 			productName = "Pods-SpiralLoader_Example";
-			productReference = B00B5CC68FB00D60B2B4A9F34D6E2C04 /* Pods_SpiralLoader_Example.framework */;
+			productReference = EA7E7D4F84E95E27F452CD6F684E9737 /* Pods_SpiralLoader_Example.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		9264408216ADE6437345E8D92F58199A /* SpiralLoader-SpiralLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554F72215BB9278A3C002B44B75BFF13 /* Build configuration list for PBXNativeTarget "SpiralLoader-SpiralLoader" */;
+			buildPhases = (
+				539EBF0EB89A7E2CBD4F07A40336BCBF /* Sources */,
+				32B202FFFC021EDFCA48008C491DD141 /* Frameworks */,
+				B681E43C7363E264896B39B676B035AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpiralLoader-SpiralLoader";
+			productName = "SpiralLoader-SpiralLoader";
+			productReference = 8245D514525F0B46AC53B6F82E905677 /* SpiralLoader.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		B47546CCC31BAF71C3D201A50B7106AD /* SpiralLoader */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 853F356A011D32EF16F1CC8CA6E1F118 /* Build configuration list for PBXNativeTarget "SpiralLoader" */;
 			buildPhases = (
 				CDB11F5192ADCB0105C51EFF942AA644 /* Headers */,
-				71B66976A4E6B5476712B4285E54EE6A /* Sources */,
+				7B04D4E40F8315760AF3FFF7D850B203 /* Sources */,
 				6D2E5E4CFC0AB98D6CBA969D49E504B5 /* Frameworks */,
-				EC935E7F1D085C9E3DF9BF628504440E /* Resources */,
+				1F7EF1E851972882CC336ECADDD0FA64 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				11671B6CC233243BC020FBBC8CE7D25B /* PBXTargetDependency */,
 			);
 			name = SpiralLoader;
 			productName = SpiralLoader;
-			productReference = DE8F32BB2BD74FD1B8E9988AE33D978A /* SpiralLoader.framework */;
+			productReference = A2D95EDF684B333E6C393877732F2DEE /* SpiralLoader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -333,30 +364,38 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1CE3A16428FF7E1EB290B999D27DBBEA /* Products */;
+			productRefGroup = 59DE78BE7464F35569D1E18E59A8948C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				357109586470E18DECCE7AFD6D515EE2 /* Pods-SpiralLoader_Example */,
 				3276C3A6D29E90DBADFDB962008A8063 /* Pods-SpiralLoader_Tests */,
 				B47546CCC31BAF71C3D201A50B7106AD /* SpiralLoader */,
+				9264408216ADE6437345E8D92F58199A /* SpiralLoader-SpiralLoader */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EA6CBFD9D3E9F95C9E5AED594B88B705 /* Resources */ = {
+		1F7EF1E851972882CC336ECADDD0FA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E936D1302D5ABC29C3E482FEBF5F48 /* SpiralLoader.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B681E43C7363E264896B39B676B035AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC935E7F1D085C9E3DF9BF628504440E /* Resources */ = {
+		EA6CBFD9D3E9F95C9E5AED594B88B705 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58DC7B7421F72EF000D719EC /* SpiralLoaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,14 +425,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71B66976A4E6B5476712B4285E54EE6A /* Sources */ = {
+		539EBF0EB89A7E2CBD4F07A40336BCBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58DC7B7321F72EF000D719EC /* SpiralAnimationView.swift in Sources */,
-				BEA04E4992C54276DAAB0B7C9A79C94C /* ReplaceMe.swift in Sources */,
-				58DC7B7521F72EF000D719EC /* SpiralLoaderView.swift in Sources */,
-				58679443701A8C21F9CF567EEBC8D040 /* SpiralLoader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B04D4E40F8315760AF3FFF7D850B203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9631642138D24519666FB16FA124C50 /* SpiralAnimationView.swift in Sources */,
+				B04FDA6296030518C5EB984C72F038C4 /* SpiralLoader-dummy.m in Sources */,
+				33A50CEAEF6E64BBCDA938BC6C4D8B18 /* SpiralLoaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +451,12 @@
 			target = 357109586470E18DECCE7AFD6D515EE2 /* Pods-SpiralLoader_Example */;
 			targetProxy = 7B4F63F70F5AFD15311D4CEB5258DA90 /* PBXContainerItemProxy */;
 		};
+		11671B6CC233243BC020FBBC8CE7D25B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SpiralLoader-SpiralLoader";
+			target = 9264408216ADE6437345E8D92F58199A /* SpiralLoader-SpiralLoader */;
+			targetProxy = 1540CEDF3E5859DF471A75E3BD94A29F /* PBXContainerItemProxy */;
+		};
 		49E7B49E2FB734F897BF06BC80011D70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SpiralLoader;
@@ -415,11 +466,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2B77D137A1C5D557C6E4BF225161A2F0 /* Release */ = {
+		0204C78F438A4F68FBD1EB1683289602 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9906EEE69BB95FA877CBB0D77FC7F8EE /* Pods-SpiralLoader_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -431,7 +483,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SpiralLoader_Example/Pods-SpiralLoader_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SpiralLoader_Example/Pods-SpiralLoader_Example.modulemap";
@@ -449,40 +501,7 @@
 			};
 			name = Release;
 		};
-		48A4409150040F54019BEA52D6D66FE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA09210F0D1A6AA1FA0A9B4D890755FF /* Pods-SpiralLoader_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SpiralLoader_Example/Pods-SpiralLoader_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SpiralLoader_Example/Pods-SpiralLoader_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
+		11D027BD8219E71225D197BACF78F7C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -533,7 +552,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -546,7 +565,92 @@
 			};
 			name = Debug;
 		};
-		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
+		1563725043B538B1B5359A305384F1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0FA07799B9AF9D8C5FE4731C52DACC8 /* Pods-SpiralLoader_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpiralLoader_Tests/Pods-SpiralLoader_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpiralLoader_Tests/Pods-SpiralLoader_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BC7C87DB7A04128DA4417787254BE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62E5CDF8F69280E021755AA94A6F3C9 /* Pods-SpiralLoader_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpiralLoader_Tests/Pods-SpiralLoader_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpiralLoader_Tests/Pods-SpiralLoader_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75A6BA173BBA4A48A2179786513501BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513341BB2070003192F8D6352007AEAC /* SpiralLoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SpiralLoader";
+				INFOPLIST_FILE = "Target Support Files/SpiralLoader/ResourceBundle-SpiralLoader-SpiralLoader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SpiralLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8FB57296A2B59949708C2B492C4646D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -594,7 +698,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -605,11 +709,28 @@
 			};
 			name = Release;
 		};
-		9445E1A24653888ABDC2A6595E8DB859 /* Debug */ = {
+		AA0FDA40E8E18FB89996474F427FF703 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A62E5CDF8F69280E021755AA94A6F3C9 /* Pods-SpiralLoader_Tests.debug.xcconfig */;
+			baseConfigurationReference = 513341BB2070003192F8D6352007AEAC /* SpiralLoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SpiralLoader";
+				INFOPLIST_FILE = "Target Support Files/SpiralLoader/ResourceBundle-SpiralLoader-SpiralLoader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SpiralLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B945D7FA01BDC82CF0487EDAF4147545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA09210F0D1A6AA1FA0A9B4D890755FF /* Pods-SpiralLoader_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -619,12 +740,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SpiralLoader_Tests/Pods-SpiralLoader_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpiralLoader_Example/Pods-SpiralLoader_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SpiralLoader_Tests/Pods-SpiralLoader_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SpiralLoader_Example/Pods-SpiralLoader_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -638,44 +759,11 @@
 			};
 			name = Debug;
 		};
-		9B78A9385B93D197DB48425D6B7F13DD /* Release */ = {
+		EE36F4F2E25776F0E02749AECC029E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0FA07799B9AF9D8C5FE4731C52DACC8 /* Pods-SpiralLoader_Tests.release.xcconfig */;
+			baseConfigurationReference = 513341BB2070003192F8D6352007AEAC /* SpiralLoader.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SpiralLoader_Tests/Pods-SpiralLoader_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SpiralLoader_Tests/Pods-SpiralLoader_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B29663E3925041401DCF6EBE7EBE0A39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EBD3F8A4E97250AB8C2D3D652798C19 /* SpiralLoader.xcconfig */;
-			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -688,7 +776,39 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SpiralLoader/SpiralLoader-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SpiralLoader/SpiralLoader-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpiralLoader/SpiralLoader.modulemap";
+				PRODUCT_MODULE_NAME = SpiralLoader;
+				PRODUCT_NAME = SpiralLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F86BF28079208E92C6FB494B3BB721F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513341BB2070003192F8D6352007AEAC /* SpiralLoader.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpiralLoader/SpiralLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpiralLoader/SpiralLoader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SpiralLoader/SpiralLoader.modulemap";
 				PRODUCT_MODULE_NAME = SpiralLoader;
@@ -703,37 +823,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BD64A48B54E743DB91859D6DAE459D18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EBD3F8A4E97250AB8C2D3D652798C19 /* SpiralLoader.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SpiralLoader/SpiralLoader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SpiralLoader/SpiralLoader-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SpiralLoader/SpiralLoader.modulemap";
-				PRODUCT_MODULE_NAME = SpiralLoader;
-				PRODUCT_NAME = SpiralLoader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -741,8 +830,8 @@
 		142B8580891C5435090A334749DD775C /* Build configuration list for PBXNativeTarget "Pods-SpiralLoader_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48A4409150040F54019BEA52D6D66FE9 /* Debug */,
-				2B77D137A1C5D557C6E4BF225161A2F0 /* Release */,
+				B945D7FA01BDC82CF0487EDAF4147545 /* Debug */,
+				0204C78F438A4F68FBD1EB1683289602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -750,8 +839,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
-				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+				11D027BD8219E71225D197BACF78F7C1 /* Debug */,
+				8FB57296A2B59949708C2B492C4646D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554F72215BB9278A3C002B44B75BFF13 /* Build configuration list for PBXNativeTarget "SpiralLoader-SpiralLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0FDA40E8E18FB89996474F427FF703 /* Debug */,
+				75A6BA173BBA4A48A2179786513501BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -759,8 +857,8 @@
 		853F356A011D32EF16F1CC8CA6E1F118 /* Build configuration list for PBXNativeTarget "SpiralLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD64A48B54E743DB91859D6DAE459D18 /* Debug */,
-				B29663E3925041401DCF6EBE7EBE0A39 /* Release */,
+				EE36F4F2E25776F0E02749AECC029E44 /* Debug */,
+				F86BF28079208E92C6FB494B3BB721F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -768,8 +866,8 @@
 		E8C5CE9A0A11E60A474E4216BBE141DE /* Build configuration list for PBXNativeTarget "Pods-SpiralLoader_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9445E1A24653888ABDC2A6595E8DB859 /* Debug */,
-				9B78A9385B93D197DB48425D6B7F13DD /* Release */,
+				6BC7C87DB7A04128DA4417787254BE85 /* Debug */,
+				1563725043B538B1B5359A305384F1DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

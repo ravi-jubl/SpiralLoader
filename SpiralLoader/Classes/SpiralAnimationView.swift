@@ -8,32 +8,31 @@
 
 import UIKit
 
-@IBDesignable
 class SpiralAnimationView: UIView {
     
-    @IBInspectable var lineWidth: CGFloat = 4 {
+    var lineWidth: CGFloat = 4 {
         didSet {
             setNeedsLayout()
         }
     }
     
-    @IBInspectable var circleCount: Int = 10 {
+   var circleCount: Int = 6 {
         didSet {
             setNeedsLayout()
         }
     }
     
-    @IBInspectable var speedFactor: Double = 0.9 {
+   var speedFactor: Double = 0.9 {
         didSet {
             setNeedsLayout()
         }
     }
     
-    var colorArr :[UIColor] = [UIColor.red,UIColor.yellow]
+   var colorArr :[UIColor] = [UIColor.red,UIColor.yellow]
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setup()
+       // setup()
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -49,7 +48,8 @@ class SpiralAnimationView: UIView {
         for i in 0 ..< self.circleCount {
             
             let center = CGPoint(x: bounds.midX, y: bounds.midY)
-            let radius : CGFloat = min(bounds.width, bounds.height) / 2 - self.lineWidth/2
+            let totalSize = ((CGFloat(self.circleCount) * self.lineWidth +  CGFloat(self.circleCount) * self.lineWidth) * 2)
+            let radius : CGFloat = totalSize / 2 - self.lineWidth/2
             let duration : Double = Double(self.circleCount) / Double(self.circleCount - i)
             
             let animation = CABasicAnimation(keyPath: "transform.rotation.z")
