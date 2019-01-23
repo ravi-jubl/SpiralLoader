@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SpiralLoader"
-  s.version          = "0.5.0"
+  s.version          = "0.7.0"
   s.summary          = "Beautiful loader for all async task in your application"
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/ravi-jubl/SpiralLoader.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = "10.0"
+  #s.ios.deployment_target = "9.0"
 
   s.source_files = "SpiralLoader/Classes/**/*.{swift}"
   # s.resources = "SpiralLoader/Classes/**/*.{xib}"
